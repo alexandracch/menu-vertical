@@ -24,15 +24,18 @@ ul {
 
 }
 
+/*a la etiqueta li, le otorgamos el tono grisáceo*/
 li {
   background: #f5f5f0;
 }
 
 /*Estados de los enlaces
-pueden ser:
-visited
-hover
-active*/
+pueden ser: (memotecnia: LoVe/HAte)
+ .link
+ .Visted
+ .Hover
+ .Acive
+ /
 
 a {
   width: 190px;
