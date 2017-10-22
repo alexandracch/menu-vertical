@@ -5,15 +5,16 @@
 #333--> Color de active
 font-family--> sans serif*/
 
+/*Para que toda nuestra web tenga una misma tipografía*/
 body {
   font-family: sans-serif;
 
 }
-
+/*editamos la barra de menú*/
 nav {
-  display: inline-block;
+  display: inline-block; /*convertimos*/
 }
-
+/*editando nuestra lista de menu*/
 ul {
   list-style: none;
   margin: 0px;
