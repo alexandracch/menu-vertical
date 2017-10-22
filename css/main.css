@@ -34,37 +34,43 @@ pueden ser: (memotecnia: LoVe/HAte)
  .link
  .Visted
  .Hover
- .Acive
- /
-
+ .Active
+ */
+/*Modificamos a la etiqueta anchore*/
 a {
-  width: 190px;
-  height: 20px;
-  display: block;
-  text-decoration: none;
-  color: #000;
-  padding-left: 10px;
+  width: 190px; /*ancho*/
+  height: 20px; /*alto*/
+  display: block; /*que se comporte como bloque*/
+  text-decoration: none; /*quitamos la edición del navegador*/
+  color: #000; /*Fuente color negro*/
+  padding-left: 10px; /*Padding hacia la izquierda*/
 }
 
-a:hover {
+ /*Pseudoselectores*/
+ /*Hover es uno de los estado de los enlaces*/
+a:hover { /*cambiamos a un tono grisáceo más oscuro*/
   background: #e0e0d1
 }
-
+/*Active es el estado de "click"*/
 a:active {
   background: #333;
   color: #fff;
 }
 
+/*llamamos a ul, ingresamos a la etiqueta li, y a su primer hijo, luego a la etiqueta anchore dentro de este*/
 ul li:first-child a {
   color: #fff;
 }
 
+/*llamamos a ul, ingresamos a la etiqueta li, y a su primer hijo que es anchore*/
+/*Entonces le decimos que cuando este esté en estado hover, pase lo siguiente:*/
 ul li:first-child a:hover {
-  color: #000;
+  color: #000; /*Que se vuelva de color negro*/
 }
-
+/*llamamos a ul, ingresamos a la etiqueta li, y a su primer hijo*/
+/*Entonces le decimos que cuando este esté en estado active, pase lo siguiente:*/
 ul li:first-child a:active {
-  color: #fff;
+  color: #fff; /*se vuelve blanco*/
 }
 
 
